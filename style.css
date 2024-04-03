@@ -25,7 +25,7 @@ a{
 }
 /* section 1 */
 .section-1{
-    padding-top: 40vh;
+    padding-top: 33vh;
     text-align: center;
 }
 
@@ -94,6 +94,7 @@ a{
 @media(max-width:780px){
     .grid-2{
         grid-template-columns: 1fr;
+        
     }
     .section-1{
         padding:0;
@@ -105,3 +106,8 @@ a{
         padding-top: 2rem;
     }
 }
+
+.logo {
+    display: none;
+}
+
