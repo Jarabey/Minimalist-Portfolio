@@ -1,6 +1,7 @@
 /* global */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+
 .grid-2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -133,5 +134,7 @@ a {
     align-items: center; /* Align items vertically */
     justify-content: center; /* Align items horizontally */
     text-align: center;
+    color: #ff3535;
+    font-family: 'Courier New', Courier, monospace;
     margin-top: 10px; /* Adjusted to provide some space between availability and section-1 */
 }
