@@ -117,7 +117,7 @@ a {
     background-color: red;
     border-radius: 100px;
     margin-right: 10px; /* Adjusted from margin-left to margin-right */
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     animation-name: blink;
     animation-duration: 0.8s;
     animation-iteration-count: infinite;
