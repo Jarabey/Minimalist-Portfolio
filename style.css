@@ -177,12 +177,51 @@ a {
     border-radius: 50%;
   }
 
-  button {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    margin: 20px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-}
+  .en {
+    color: #fff;
+  }
+  
+  .es {
+    color: #00a1ff;
+  }
+  
+  .check {
+    position: relative;
+    width: 50px;
+    height: 25px;
+  }
+  
+  .check::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    background: #333;
+    border-radius: 25px;
+    transition: background 0.25s;
+  }
+  
+  .check::after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    border-radius: 25px;
+    transition: 0.25s;
+    border: 2px solid #333;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+  }
+  
+  .check:checked::before {
+    background: #00a1ff;
+  }
+  
+  .check:checked::after {
+    left: 25px;
+    background: #fff;
+    border: 2px solid #00a1ff;
+  }
+  
