@@ -177,6 +177,11 @@ a {
     border-radius: 50%;
   }
 
+  .list {
+    color: #fff;
+    
+  }
+
   .en {
     color: #fff;
   }
@@ -224,4 +229,5 @@ a {
     background: #fff;
     border: 2px solid #00a1ff;
   }
+  
   
